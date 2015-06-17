@@ -6,7 +6,7 @@
     "exec",
     "find"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Manuel Baesler",
     "email": "baslr.at.github@gmail.com"

@@ -1,7 +1,7 @@
 
 exec = require('child_process').exec
 
-find = (path, opts, cb) ->
+module.exports = (path, opts, cb) ->
   exec "find #{path} #{opts}", {maxBuffer:1024*1024*1024}, (e, stdout, stderr) ->
     return cb [e, stderr], [] if e?
 
